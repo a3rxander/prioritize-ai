@@ -1,0 +1,6 @@
+@PrioritizeAI_HostAddress = http://localhost:5155
+
+GET {{PrioritizeAI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
