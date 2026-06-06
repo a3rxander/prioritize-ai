@@ -18,6 +18,12 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.MapGet("/", () => Results.Ok(new
+{
+    name = "PrioritizeAI.Api",
+    status = "running"
+}));
+
 app.MapControllers();
 
 app.Run();

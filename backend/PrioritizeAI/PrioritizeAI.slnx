@@ -1,3 +1,8 @@
 <Solution>
-  <Project Path="PrioritizeAI/PrioritizeAI.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/PrioritizeAI.Api/PrioritizeAI.Api.csproj" />
+    <Project Path="src/PrioritizeAI.Application/PrioritizeAI.Application.csproj" />
+    <Project Path="src/PrioritizeAI.Domain/PrioritizeAI.Domain.csproj" />
+    <Project Path="src/PrioritizeAI.Infrastructure/PrioritizeAI.Infrastructure.csproj" />
+  </Folder>
 </Solution>
